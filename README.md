@@ -1,8 +1,8 @@
-# wnsh
-wnsh is a shell
+# igsh
+igsh is a shell
 
 # Running
-You need to download the repository and compile `/wnsh/main.cpp`
+You need to download the repository and compile `/src/main.cpp`
 
 # Builtins
 
@@ -16,5 +16,4 @@ Error handling for invalid commands <br>
 More commands
   - Exit commands
 
-Get list of function array when function position is found <br>
-Shell Prompt `>>`
+Get length of function array when function position is found
