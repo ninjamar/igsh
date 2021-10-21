@@ -47,7 +47,7 @@ int igsh_main(){
 
 	int pos = std::distance(func_names, std::find(func_names, func_names + 3, tocall));
 	
-	igsh* f = (igsh*)func[pos];
+	igsh_func* f = (igsh_func*)func[pos];
 	
 	f(args);
 	
