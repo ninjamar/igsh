@@ -45,7 +45,7 @@ int igsh_main(){
 	std::string tocall = cmd[0];
 	std::vector<std::string> args = std::vector<std::string>(cmd.begin() + 1, cmd.end());
 
-	int pos = std::distance(func_names, std::find(func_names, func_names + 2, tocall));
+	int pos = std::distance(func_names, std::find(func_names, func_names + 3, tocall));
 	
 	igsh* f = (igsh*)func[pos];
 	
