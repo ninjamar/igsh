@@ -2,6 +2,10 @@
 #include <string>
 #include <algorithm>
 
+int exit(std::vector<std::string> **args){
+	exit(1);
+	return 0;
+}
 
 int bar(std::vector<std::string> **args){
 	std::cout << "bar" << std::endl;
@@ -14,9 +18,11 @@ int foo(std::vector<std::string> **args){
 
 int (*func[])(std::vector<std::string> **) = {
 	&bar,
-	&foo
+	&foo,
+	&exit
 };
 const char *func_names[] = {
 	"foo",
-	"bar"
+	"bar",
+	"exit"
 };
