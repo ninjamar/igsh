@@ -15,3 +15,5 @@ The shell contains builtin functions
 Error handling for invalid commands <br>
 More commands
   - Exit commands
+
+Get list of function array when function position is found
