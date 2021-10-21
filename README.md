@@ -9,11 +9,10 @@ You need to download the repository and compile `/src/main.cpp`
 The shell contains builtin functions
 1. `foo`
 2. `bar`
+3. `exit`
 
 # TODO
 
 Error handling for invalid commands <br>
-More commands
-  - Exit commands
-
+More commands <br>
 Get length of function array when function position is found
