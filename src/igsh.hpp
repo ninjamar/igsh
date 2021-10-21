@@ -9,7 +9,7 @@ split_line(s) -> std::vector<std::string>{
 read_cin() -> std::vector<std::string>{
 	read data from cin until newline and split whitespace by using "split_line"
 }
-wnsh_main() -> int{
+igsh_main() -> int{
 	main function of code
 }
 -----------------------------------------------
@@ -37,9 +37,9 @@ std::vector<std::string> read_cin(){
 	return sc;
 }
 
-int wnsh_main(){
-	typedef int wnsh_func(std::vector<std::string>);
-
+int igsh_main(){
+	typedef int igsh_func(std::vector<std::string>);
+	std::cout << ">>";
 	std::vector<std::string> cmd = read_cin();
 
 	std::string tocall = cmd[0];
@@ -47,7 +47,7 @@ int wnsh_main(){
 
 	int pos = std::distance(func_names, std::find(func_names, func_names + 2, tocall));
 	
-	wnsh_func* f = (wnsh_func*)func[pos];
+	igsh* f = (igsh*)func[pos];
 	
 	f(args);
 	
