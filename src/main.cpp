@@ -1,7 +1,7 @@
 /*
 	Made by @ninjamar (https://github.com/ninjamar)
 	This file runs igsh
-	If you need the cpp libraries please use igsh.hpp instead
+	If you need to use libraries please use igsh.hpp instead
 */
 
 #include "igsh.hpp"
